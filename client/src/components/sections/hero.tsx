@@ -12,7 +12,7 @@ export default function Hero() {
   return (
     <section className="pt-24 pb-16 hero-bg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="max-w-4xl mx-auto text-center">
           <div className="animate-fade-in">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
               Hyperlocal Air Quality 
@@ -41,7 +41,7 @@ export default function Hero() {
                 Watch Demo
               </Button>
             </div>
-            <div className="flex flex-col sm:flex-row gap-6 text-sm text-gray-600">
+            <div className="flex flex-col sm:flex-row gap-6 text-sm text-gray-600 justify-center">
               <div className="flex items-center">
                 <Satellite className="h-5 w-5 text-primary mr-2" />
                 <span>Satellite Data</span>
@@ -56,7 +56,6 @@ export default function Hero() {
               </div>
             </div>
           </div>
-          
         </div>
       </div>
     </section>
