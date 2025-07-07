@@ -16,7 +16,7 @@ export default function Hero() {
           <div className="animate-fade-in lg:text-left">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
               Hyperlocal Air Quality 
-              <span className="text-primary"> Monitoring</span> 
+              <span className="text-primary"> Monitoring </span> 
               for Everyone
             </h1>
             <p className="text-xl text-gray-600 mb-8">
