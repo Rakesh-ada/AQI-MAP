@@ -52,7 +52,7 @@ export default function Hero() {
               </div>
               <div className="flex items-center">
                 <TrendingUp className="h-5 w-5 text-primary mr-2" />
-                <span>72hr Forecasts</span>
+                <span>24hr Forecasts</span>
               </div>
             </div>
           </div>
