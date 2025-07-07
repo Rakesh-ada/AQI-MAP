@@ -37,8 +37,7 @@ export default function CTA() {
           </Button>
           <Button 
             size="lg"
-            variant="outline"
-            className="border-white text-white"
+            className="bg-white/10 border-white text-white hover:bg-white/20"
             onClick={scrollToContact}
           >
             <Code className="h-5 w-5 mr-2" />
