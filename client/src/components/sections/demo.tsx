@@ -133,13 +133,17 @@ export default function Demo() {
                       ))}
                     </div>
                     
-                    <div className="h-48 bg-gray-700 rounded-lg flex items-center justify-center">
-                      <div className="text-center">
-                        <div className="w-16 h-16 bg-gray-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                          <MapPin className="h-8 w-8 text-gray-400" />
+                    <div className="h-48 bg-gray-700 rounded-lg overflow-hidden relative">
+                      <img 
+                        src="https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                        alt="Air quality heatmap visualization" 
+                        className="w-full h-full object-cover opacity-70"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent flex items-end">
+                        <div className="p-4 text-white">
+                          <p className="text-sm font-medium">Interactive Pollution Heatmap</p>
+                          <p className="text-xs text-gray-300">Real-time satellite and ground station data</p>
                         </div>
-                        <p className="text-gray-300 mb-2">Interactive heatmap visualization</p>
-                        <p className="text-sm text-gray-500">Click on data points to view detailed information</p>
                       </div>
                     </div>
                   </CardContent>

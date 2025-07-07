@@ -59,7 +59,7 @@ export default function Navigation() {
           <div className="hidden md:flex items-center space-x-4">
             <Button 
               className="bg-primary hover:bg-primary/90 text-white"
-              onClick={() => scrollToSection("cta")}
+              onClick={() => window.open("https://mahad2810.github.io/AQIMap/", "_blank")}
             >
               <Download className="h-4 w-4 mr-2" />
               Get App
@@ -86,7 +86,7 @@ export default function Navigation() {
                 ))}
                 <Button 
                   className="bg-primary hover:bg-primary/90 text-white mt-4"
-                  onClick={() => scrollToSection("cta")}
+                  onClick={() => window.open("https://mahad2810.github.io/AQIMap/", "_blank")}
                 >
                   <Download className="h-4 w-4 mr-2" />
                   Get App

@@ -41,6 +41,36 @@ export default function Technology() {
           </p>
         </div>
         
+        <div className="grid md:grid-cols-2 gap-8 mb-12">
+          <div className="relative">
+            <img 
+              src="https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+              alt="Satellite data visualization" 
+              className="rounded-xl shadow-lg w-full h-64 object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent rounded-xl flex items-end">
+              <div className="p-6 text-white">
+                <h3 className="text-xl font-semibold mb-2">Satellite Integration</h3>
+                <p className="text-sm text-gray-200">Real-time atmospheric data from ISRO satellites</p>
+              </div>
+            </div>
+          </div>
+          
+          <div className="relative">
+            <img 
+              src="https://images.unsplash.com/photo-1454391304352-2bf4678b1a7a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+              alt="Weather station monitoring" 
+              className="rounded-xl shadow-lg w-full h-64 object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent rounded-xl flex items-end">
+              <div className="p-6 text-white">
+                <h3 className="text-xl font-semibold mb-2">Ground Station Network</h3>
+                <p className="text-sm text-gray-200">Comprehensive monitoring from CPCB and IMD stations</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {technologies.map((tech, index) => (
             <Card key={index} className="hover:shadow-lg transition-shadow duration-300">

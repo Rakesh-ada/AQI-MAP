@@ -30,7 +30,7 @@ export default function CTA() {
           <Button 
             size="lg"
             className="bg-white text-primary hover:bg-gray-100 font-semibold"
-            onClick={scrollToDemo}
+            onClick={() => window.open("https://mahad2810.github.io/AQIMap/", "_blank")}
           >
             <Smartphone className="h-5 w-5 mr-2" />
             Launch Web App
