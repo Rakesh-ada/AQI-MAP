@@ -56,19 +56,7 @@ export default function Hero() {
               </div>
             </div>
           </div>
-          <div className="relative animate-slide-up">
-            <img 
-              src="@assets/image_1751864295223.png" 
-              alt="Air quality monitoring app interface showing AQI data for Kolkata" 
-              className="rounded-2xl shadow-2xl w-full max-w-md mx-auto"
-            />
-            <div className="absolute -top-4 -right-4 bg-white p-4 rounded-xl shadow-lg">
-              <div className="text-center">
-                <div className="text-2xl font-bold text-yellow-600">62</div>
-                <div className="text-sm text-gray-600">AQI Moderate</div>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </div>
     </section>
