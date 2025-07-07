@@ -58,14 +58,14 @@ export default function Hero() {
           </div>
           <div className="relative animate-slide-up">
             <img 
-              src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=1000" 
-              alt="Air quality monitoring app on smartphone" 
+              src="@assets/image_1751864295223.png" 
+              alt="Air quality monitoring app interface showing AQI data for Kolkata" 
               className="rounded-2xl shadow-2xl w-full max-w-md mx-auto"
             />
             <div className="absolute -top-4 -right-4 bg-white p-4 rounded-xl shadow-lg">
               <div className="text-center">
-                <div className="text-2xl font-bold text-green-600">62</div>
-                <div className="text-sm text-gray-600">AQI Good</div>
+                <div className="text-2xl font-bold text-yellow-600">62</div>
+                <div className="text-sm text-gray-600">AQI Moderate</div>
               </div>
             </div>
           </div>
